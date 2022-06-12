@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    background-color: transparent;
+    background: none;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    color: white;
+    margin: 15px;
+    margin-top: 15px;
+    z-index: 100;
+}
+
+.header__logo{
+    height: 24px;
+    width: 100px;
+    margin-top: -5px;
+}
+
+.header__center{
+    
+    /* seta cabeçalho central de um lado e cabeçalho da direita em outro */
+    flex: 1; 
+
+    /* deixa cabeçalho central em linha */
+    display: flex;
+
+    /* deixa cabeçalho central no meio da tela */
+    justify-content: center;
+}
+
+.header__center>p{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.header__right{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.header__right>p{
+    margin: 10px;
+}

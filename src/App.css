@@ -1,0 +1,57 @@
+.app__itemsContainer{
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+}
+
+.item__text__index{
+    color: 'white';
+    /* margin-bottom: 30px; */
+}
+
+.quemsomos{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    justify-items: center;
+    height: 92vh;
+    border-bottom: 10px;
+    border-color: black;
+}
+
+.nossoobjetivo{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    justify-items: center;
+    height: 92vh;
+}
+
+.text__titulo{
+    display: flex;
+    flex-direction: column;
+    font-size: 44px;
+    color: 'black';
+    flex: 1;
+    /* background-color: aqua; */
+    
+    
+    /* justify-self: center; */
+    /* align-self: center;  */
+    /* float: left; */
+    /* width: 50%;
+    padding-top: 20%; */
+    
+}
+
+.text__descricao{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: 'black';
+    /* align-items: center; */
+    flex: 1;
+    color: black;
+    /* background-color: brown; */
+    padding-right: 200px;
+}
